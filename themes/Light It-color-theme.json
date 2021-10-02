@@ -4,12 +4,15 @@
 	"colors": {
 		"editor.background": "#F1F5F9", // Bluegray 100
 		"editor.foreground": "#475569", // Bluegray 600
+        "editor.findMatchBackground": "#FED7AA", // Orange 200
+        "editor.findMatchHighlightBackground": "#FFEDD5", // Orange 100
         "editorCursor.background": "#F0F9FF", // Sky 50
         "editorCursor.foreground": "#0369A1", // Sky 700
         "editor.selectionBackground": "#FFEDD5", // Orange 100
         "editorLineNumber.foreground": "#94A3B8", // Bluegray 400
         "editorLineNumber.activeForeground": "#C084FC", // Purple 400
         "editorLink.activeForeground": "#818CF8", // Indigo 400
+        "editorInfo.foreground": "#34D399",
         "terminal.selectionBackground": "#FFEDD5", // Orange 100
         "terminalCursor.background": "#F0F9FF", // Sky 50
         "terminalCursor.foreground": "#0369A1", // Sky 700
@@ -74,13 +77,21 @@
 			}
 		},
 		{
-			"name": "Keywords",
+			"name": "Storage",
 			"scope": [
-				"keyword",
 				"storage"
 			],
 			"settings": {
-				"foreground": "#0369A1" // Sky 700
+				"foreground": "#0891B2" // Cyan 600
+			}
+		},
+        {
+			"name": "Keywords",
+			"scope": [
+				"keyword",
+			],
+			"settings": {
+				"foreground": "#15803D" // Green 700
 			}
 		},
 		{
@@ -90,7 +101,7 @@
 				"support.type"
 			],
 			"settings": {
-				"foreground": "#0369A1" // Sky 700
+				"foreground": "#0891B2" // Cyan 600
 			}
 		},
 		{
@@ -111,7 +122,7 @@
 				"support.variable"
 			],
 			"settings": {
-				"foreground": "#475569" // Bluegray 600
+				"foreground": "#334155" // Bluegray 700
 			}
 		},
 		{
@@ -121,7 +132,7 @@
 				"support.function"
 			],
 			"settings": {
-				"foreground": "#A855F7" // Purple 500
+				"foreground": "#0369A1" // Sky 700
 			}
 		},
 		{
@@ -131,7 +142,17 @@
                 "meta.class"
 			],
 			"settings": {
-				"foreground": "#65A30D" // Lime 600
+				"foreground": "#4D7C0F" // Lime 700
+			}
+		},
+        {
+			"name": "Inherited classes",
+			"scope": [
+                "support.other",
+                "support.class"
+			],
+			"settings": {
+				"foreground": "#64748B" // Bluegray 500
 			}
 		},
 		{
@@ -161,7 +182,11 @@
 		},
 		{
 			"name": "Strings",
-			"scope": "string",
+			"scope": [
+                "string",
+                "punctuation.definition.string.begin",
+                "punctuation.definition.string.end"
+            ],
 			"settings": {
 				"foreground": "#D97706" // Amber 600
 			}
@@ -191,7 +216,7 @@
 			"name": "Punctuation",
 			"scope": "punctuation",
 			"settings": {
-				"foreground": "#94A3B8" // Bluegray 400
+				"foreground": "#334155" // Bluegray 700
 			}
 		},
 		{
@@ -233,7 +258,7 @@
 			],
 			"settings": {
 				"fontStyle": "italic",
-				"foreground": "#16A34A" // Green 600
+				"foreground": "#15803D" // Green 700
 			}
 		},
 		{
@@ -265,7 +290,7 @@
 				"support.type.property-name"
 			],
 			"settings": {
-				"foreground": "#10B981" // Emerald 500
+				"foreground": "#059669" // Emerald 600
 			}
 		},
 		{
