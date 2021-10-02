@@ -1,0 +1,22 @@
+{
+    "name": "lightit",
+    "displayName": "lightit",
+    "description": "Light VS Code theme",
+    "version": "0.0.1",
+    "publisher": "guetteluis",
+    "engines": {
+        "vscode": "^1.60.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Light It",
+                "uiTheme": "vs",
+                "path": "./themes/Light It-color-theme.json"
+            }
+        ]
+    }
+}
