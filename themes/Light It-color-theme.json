@@ -240,7 +240,7 @@
 				"punctuation.definition.tag.end.html"
 			],
 			"settings": {
-				"foreground": "#94A3B8" // Bluegray 400
+				"foreground": "#6B7280" // Bluegray 500
 			}
 		},
 		{
