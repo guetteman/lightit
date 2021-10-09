@@ -13,6 +13,7 @@
         "editorLineNumber.activeForeground": "#C084FC", // Purple 400
         "editorLink.activeForeground": "#818CF8", // Indigo 400
         "editorInfo.foreground": "#34D399",
+        "editor.snippetTabstopHighlightBackground": "#FFEDD5", // Orange 100
         "terminal.selectionBackground": "#FFEDD5", // Orange 100
         "terminalCursor.background": "#F0F9FF", // Sky 50
         "terminalCursor.foreground": "#0369A1", // Sky 700
