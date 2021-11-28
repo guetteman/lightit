@@ -2,6 +2,7 @@
     "name": "lightit",
     "displayName": "lightit",
     "description": "Light VS Code theme",
+    "icon": "lightit.png",
     "repository": {
         "type": "git",
         "url": "https://github.com/guetteman/lightit"
