@@ -7,7 +7,7 @@
         "type": "git",
         "url": "https://github.com/guetteman/lightit"
     },
-    "version": "1.0.0",
+    "version": "1.0.1",
     "publisher": "guetteman",
     "engines": {
         "vscode": "^1.60.0"
